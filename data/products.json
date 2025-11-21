@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Bluetooth Headphones",
+    "price": 79.99,
+    "category": "Electronics",
+    "description": "High-quality wireless headphones with noise cancellation",
+    "image": "images/headphone.jpg"
+
+  },
+  {
+    "id": 2,
+    "name": "Smart Fitness Watch",
+    "price": 199.99,
+    "category": "Wearables",
+    "description": "Advanced fitness tracking with heart rate monitor",
+    "image": "images/watch.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Mechanical Keyboard",
+    "price": 129.99,
+    "category": "Computer Accessories",
+    "description": "RGB mechanical keyboard with cherry MX switches",
+    "image": "images/keyboard.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Gaming Mouse",
+    "price": 59.99,
+    "category": "Computer Accessories",
+    "description": "High-precision gaming mouse with customizable DPI",
+    "image": "images/mouse.png"
+  },
+  {
+    "id": 5,
+    "name": "Laptop Stand",
+    "price": 39.99,
+    "category": "Office Supplies",
+    "description": "Adjustable aluminum laptop stand for better ergonomics",
+    "image": "images/laptop-stand.jpg"
+  },
+  {
+    "id": 6,
+    "name": "USB-C Hub",
+    "price": 49.99,
+    "category": "Electronics",
+    "description": "7-in-1 USB-C hub with HDMI, USB, and Ethernet ports",
+    "image": "images/usb-hub.jpg"
+  }
+]

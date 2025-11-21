@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Demo - TechStore</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">🛍️ TechStore</h1>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="api-demo.html">API Demo</a></li>
+                <li><a href="/api/products">JSON API</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="api-demo-container">
+        <div class="page-header">
+            <h1>🛍️ Product Catalog - API Demo</h1>
+            <p>Click the button below to fetch product data from our JSON API with local images:</p>
+            <button id="fetchData" class="fetch-button">📦 Load Products</button>
+        </div>
+        
+        <div id="loading" class="loading hidden">
+            <p>🔄 Loading products...</p>
+        </div>
+        
+        <div id="error" class="error hidden"></div>
+        
+        <div id="productsContainer" class="products-grid"></div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 TechStore. All rights reserved. | Express Microproject Demonstration</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
